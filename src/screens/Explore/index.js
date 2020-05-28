@@ -1,7 +1,15 @@
 import React, {Component} from 'react';
-import {View, Text, TextInput, SafeAreaView, StatusBar} from 'react-native';
+import {
+  View,
+  ScrollView,
+  TextInput,
+  SafeAreaView,
+  StatusBar,
+} from 'react-native';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
-import {FlatList} from 'react-native-gesture-handler';
+
+import Discover from '../../components/Discover';
+import images from '../../mocks/images';
 
 import styles from './styles';
 
@@ -30,7 +38,7 @@ export default class Explore extends Component {
             <View style={styles.searchSection}>
               <FontAwesome
                 style={styles.searchIcon}
-                name="rocket"
+                name="search"
                 size={20}
                 color="#000"
               />
@@ -38,11 +46,14 @@ export default class Explore extends Component {
                 placeholder="Search here"
                 placeholderTextColor="#9F9F9F"
                 value={this.state.query}
-                onChangeText={this.filterBook.bind(this)}
                 style={styles.searchInput}
               />
             </View>
           </View>
+
+          <ScrollView scrollEventThrottle={16}>
+            <Discover />
+          </ScrollView>
         </SafeAreaView>
       </>
     );
