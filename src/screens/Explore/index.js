@@ -9,7 +9,7 @@ import {
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 
 import Discover from '../../components/Discover';
-import images from '../../mocks/images';
+import Popular from '../../components/PopularScroll';
 
 import styles from './styles';
 
@@ -51,8 +51,10 @@ export default class Explore extends Component {
             </View>
           </View>
 
-          <ScrollView scrollEventThrottle={16}>
+          <ScrollView alwaysBounceVertical={true} scrollEventThrottle={16}>
             <Discover />
+            <Popular />
+            <Popular />
           </ScrollView>
         </SafeAreaView>
       </>

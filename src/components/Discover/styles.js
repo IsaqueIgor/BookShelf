@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
   },
   title: {
     color: '#000',
-    fontSize: 20,
+    fontSize: 25,
     padding: 15,
   },
   textView: {
@@ -55,6 +55,15 @@ const styles = StyleSheet.create({
     shadowOpacity: 1,
     shadowRadius: 3,
     elevation: 5,
+  },
+  categoryBox: {
+    height: 35,
+    width: 115,
+    borderWidth: 0.5,
+    borderRadius: 15,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginLeft: 10,
   },
 });
 

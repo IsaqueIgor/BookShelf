@@ -8,6 +8,7 @@ const styles = StyleSheet.create({
   header: {
     height: 50,
     padding: (0, 16),
+    marginBottom: 15,
   },
   welcomeText: {
     fontSize: 32,
