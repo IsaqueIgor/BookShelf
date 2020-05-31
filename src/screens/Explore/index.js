@@ -5,6 +5,7 @@ import {
   TextInput,
   SafeAreaView,
   StatusBar,
+  TouchableOpacity,
 } from 'react-native';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 
@@ -35,19 +36,16 @@ export default class Explore extends Component {
         <StatusBar backgroundColor={'#FFF'} />
         <SafeAreaView style={styles.container}>
           <View style={styles.header}>
-            <View style={styles.searchSection}>
-              <FontAwesome
-                style={styles.searchIcon}
-                name="search"
-                size={20}
-                color="#000"
-              />
+            <View style={styles.inputSearchContainer}>
               <TextInput
+                style={styles.inputSearch}
                 placeholder="Search here"
                 placeholderTextColor="#9F9F9F"
                 value={this.state.query}
-                style={styles.searchInput}
               />
+              <TouchableOpacity style={styles.buttonSearch} onPress={() => {}}>
+                <FontAwesome name="search" color="gray" size={16} />
+              </TouchableOpacity>
             </View>
           </View>
 

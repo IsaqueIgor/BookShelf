@@ -15,23 +15,27 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginTop: 10,
   },
-  searchSection: {
-    flex: 1,
-    flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#fff',
-  },
-  searchIcon: {
-    padding: 10,
-  },
-  searchInput: {
-    height: 55,
-    width: '90%',
+  inputSearchContainer: {
     backgroundColor: '#EDEDED',
+    flexDirection: 'row',
+    alignItems: 'center',
     borderRadius: 25,
-    padding: 5,
-    paddingRight: 10,
+  },
+  inputSearch: {
+    padding: 12,
+    fontSize: 16,
+    fontWeight: '500',
+    color: 'gray',
+    flex: 1,
+  },
+  buttonSearch: {
+    shadowColor: '#222',
+    shadowOffset: {width: 0, height: 2},
+    shadowOpacity: 0.3,
+    shadowRadius: 12,
+    padding: 13,
+    borderRadius: 30,
+    aspectRatio: 1,
   },
 });
 
