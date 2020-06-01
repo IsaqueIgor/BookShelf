@@ -17,7 +17,9 @@ const PopularScroll = () => {
     <View style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.title}>Popular</Text>
-        <Text style={styles.moreText}>More</Text>
+        <TouchableWithoutFeedback onPress={() => {}}>
+          <Text style={styles.moreText}>More</Text>
+        </TouchableWithoutFeedback>
       </View>
 
       <FlatList

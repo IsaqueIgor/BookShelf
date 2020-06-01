@@ -21,9 +21,11 @@ const styles = StyleSheet.create({
     elevation: 5,
   },
   title: {
-    color: '#000',
-    fontSize: 25,
     padding: 15,
+    fontFamily: 'montserrat-regular',
+    color: '#121212',
+    fontSize: 40,
+    fontWeight: 'bold',
   },
   textView: {
     position: 'absolute',

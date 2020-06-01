@@ -9,9 +9,15 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   headerText: {
-    fontSize: 32,
+    fontFamily: 'montserrat-regular',
+    color: '#121212',
+    fontSize: 40,
     fontWeight: 'bold',
-    marginTop: 10,
+    marginTop: 30,
+    marginLeft: 37,
+  },
+  favList: {
+    marginTop: 25,
   },
 });
 

@@ -12,9 +12,11 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   title: {
-    color: '#000',
     fontSize: 25,
+    fontFamily: 'montserrat-regular',
+    color: '#121212',
     marginRight: 10,
+    fontWeight: 'bold',
     padding: 15,
   },
   moreText: {
