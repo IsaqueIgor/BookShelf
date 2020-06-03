@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     color: '#7C7C7C',
   },
   surface: {
-    elevation: 15,
+    elevation: 10,
     height: 150,
     width: 100,
     marginRight: 10,
@@ -33,6 +33,7 @@ const styles = StyleSheet.create({
   },
   card: {
     flex: 1,
+    alignItems: 'center',
     height: 250,
     width: 120,
     paddingRight: 10,
@@ -45,6 +46,8 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   bookTitle: {
+    marginTop: 10,
+    fontSize: 10,
     alignContent: 'center',
     fontWeight: 'bold',
   },

@@ -30,7 +30,7 @@ const PopularScroll = () => {
         renderItem={({item, index}) => {
           return (
             <View style={styles.card}>
-              <TouchableWithoutFeedback>
+              <TouchableWithoutFeedback onPress={() => {}}>
                 <Surface style={styles.surface}>
                   <ImageBackground source={item.img} style={styles.bookImg} />
                 </Surface>

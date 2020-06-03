@@ -20,7 +20,19 @@ const books = [
   {
     key: 4,
     img: require('../assets/cover4.png'),
-    title: 'No Friend but the Mountains',
+    title: 'No Friend',
+    author: 'Behrouz B.',
+  },
+  {
+    key: 5,
+    img: require('../assets/cover.png'),
+    title: 'Book yellow.',
+    author: 'Behrouz B.',
+  },
+  {
+    key: 6,
+    img: require('../assets/cover4.png'),
+    title: 'No Friend',
     author: 'Behrouz B.',
   },
 ];

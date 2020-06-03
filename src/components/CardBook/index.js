@@ -24,26 +24,27 @@ export default function CardBook(props) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    marginBottom: 20,
   },
   img: {
-    width: 115,
-    height: 152,
+    width: 185,
+    height: 272,
   },
   card: {
-    width: 124,
-    height: 192,
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: 154,
+    height: 300,
     marginLeft: 31,
   },
   bookTitle: {
     fontFamily: 'montserrat-regular',
-    fontSize: 20,
+    fontSize: 14,
     fontWeight: 'bold',
     color: '#121212',
-    marginLeft: 10,
   },
   bookAuthor: {
     fontFamily: 'roboto-regular',
     color: 'rgba(155,155,155,1)',
-    marginLeft: 10,
   },
 });
